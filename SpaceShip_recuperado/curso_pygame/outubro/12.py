@@ -65,7 +65,7 @@ def gerar_sprite(desenho, cor):
 
 def criar_frota():
     largura_frota = COLUNAS * LARGURA_ALIEN + (COLUNAS - 1) * ESPACO_X
-    x_inicial = (LARGURA - largura_frota) // 2
+    x_inicial = (LARGURA - largura_frota) //2
     inimigos = []
     for linha in range(LINHAS):
         for coluna in range(COLUNAS):
