@@ -181,7 +181,7 @@ while rodando:
     # DESENHAR: limpar a tela antes de redesenhar os objetos
     tela.fill(COR_FUNDO)
     if estado == "menu":
-        escrever_centro("SPACESHIPS", 85, COR_NAVE, destaque=True)
+        ver_centroescre("SPACESHIPS", 85, COR_NAVE, destaque=True)
         escrever_centro("ENTER - iniciar partida", 165, COR_TIRO)
         escrever_centro("A/D ou setas: mover | ESPACO: tiro", 208)
         escrever_centro("ESC: sair", 276)
