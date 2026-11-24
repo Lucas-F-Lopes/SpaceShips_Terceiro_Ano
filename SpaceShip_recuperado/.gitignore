@@ -2,3 +2,4 @@
 **/__pycache__/
 *.pyc
 exercicio_07.py
+recordes.db
